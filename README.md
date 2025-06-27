@@ -1,10 +1,10 @@
-# Project Task List App
+# 🚀 Task List App with Vite + React.js
 
 This application was designed to practice skills in using React for creating functional applications in the user interface and styling.
 
 This is a simple Task List application built using Vite + React.js, designed to help you efficiently manage your daily tasks. It comes with essential functionalities including adding, editing, deleting, moving tasks up or down, filtering, and local data storage.
 
-## Description
+## ✨ Description
 
 * **Add Task:** Quickly add new task to your list.
 * **Toggle Complete:** Mark tasks as completed or incomplete.
@@ -15,7 +15,7 @@ This is a simple Task List application built using Vite + React.js, designed to 
 * **Filter Tasks:** Filter to view all tasks, or only active tasks.
 * **Local Storage:** Your Tasks data is saved in local Storage, persists even if you close or refresh the page.
 
-## Technologies Used
+## 📦 Technologies Used
 
 * **React.js:** A JavaScript library for building user interfaces.
 
@@ -25,7 +25,7 @@ This is a simple Task List application built using Vite + React.js, designed to 
 
 * **Tailwind Css:** A configuration management assistant for styling the application.
 
-## Installation and Running the project
+## 🛠️ Installation and Running the Project
 
 * Install dependencies.
 
@@ -33,16 +33,28 @@ This is a simple Task List application built using Vite + React.js, designed to 
   npm install
 ```
 
-* Start the server.
+* Install tailwind css.
+
+```bash
+  npm install tailwindcss @tailwindcss/vite
+```
+
+* Install react-toastify
+
+```bash
+  npm i react-toastify
+```
+
+* Run the project.
 
 ```bash
   npm run dev
 ```
 
-## Links
+## 🔗 View the Demo
 
-* Link to view the applications. [Documentation](https://linktodocumentation)
+* Links to view the applications. [Documentation](https://linktodocumentation)
 
-## Authors
+## 📌 Authors
 
 * [@9Bank-Git](https://github.com/9Bank-Git)
