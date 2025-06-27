@@ -1,10 +1,11 @@
-# 🚀 Task List App with Vite + React.js
-
-This application was designed to practice skills in using React for creating functional applications in the user interface and styling.
+# 📝 Task List App
 
 This is a simple Task List application built using Vite + React.js, designed to help you efficiently manage your daily tasks. It comes with essential functionalities including adding, editing, deleting, moving tasks up or down, filtering, and local data storage.
 
-## ✨ Description
+This application was designed to practice skills in using React for creating functional applications in the user interface and styling.
+
+
+## 💡 Documentation
 
 * **Add Task:** Quickly add new task to your list.
 * **Toggle Complete:** Mark tasks as completed or incomplete.
@@ -15,17 +16,26 @@ This is a simple Task List application built using Vite + React.js, designed to 
 * **Filter Tasks:** Filter to view all tasks, or only active tasks.
 * **Local Storage:** Your Tasks data is saved in local Storage, persists even if you close or refresh the page.
 
-## 📦 Technologies Used
 
-* **React.js:** A JavaScript library for building user interfaces.
+## 🛠️ Skills
 
-* **JavaScript(ES6+):** For core application logic.
+* React.js
+* HTML
+* CSS
+* Tailwind Css
 
-* **HTML/CSS:** For structuring and styling the application.
+## 🔗 Links
 
-* **Tailwind Css:** A configuration management assistant for styling the application.
+Links to view the applications [Documentation](https://9bank-tasklist.netlify.app/)
 
-## 🛠️ Installation and Running the Project
+
+## 🚀 Installation and Running the Project
+
+* Create the project and go to the project directory
+```bash
+  npm create vite@latest my-project -- --template react
+  cd my-project
+```
 
 * Install dependencies
 
@@ -45,15 +55,12 @@ This is a simple Task List application built using Vite + React.js, designed to 
   npm i react-toastify
 ```
 
-* Run the project
+* Runing the project
 
 ```bash
   npm run dev
 ```
 
-## 🔗 View the Demo
-
-* Links to view the applications [Documentation](https://9bank-tasklist.netlify.app/)
 
 ## 📌 Authors
 
