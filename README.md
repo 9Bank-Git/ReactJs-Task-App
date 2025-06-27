@@ -27,13 +27,13 @@ This is a simple Task List application built using Vite + React.js, designed to 
 
 ## 🛠️ Installation and Running the Project
 
-* Install dependencies.
+* Install dependencies
 
 ```bash
   npm install
 ```
 
-* Install tailwind css.
+* Install tailwind css
 
 ```bash
   npm install tailwindcss @tailwindcss/vite
@@ -45,7 +45,7 @@ This is a simple Task List application built using Vite + React.js, designed to 
   npm i react-toastify
 ```
 
-* Run the project.
+* Run the project
 
 ```bash
   npm run dev
@@ -53,7 +53,7 @@ This is a simple Task List application built using Vite + React.js, designed to 
 
 ## 🔗 View the Demo
 
-* Links to view the applications. [Documentation](https://linktodocumentation)
+* Links to view the applications [Documentation](https://9bank-tasklist.netlify.app/)
 
 ## 📌 Authors
 
