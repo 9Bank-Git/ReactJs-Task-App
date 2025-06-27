@@ -36,7 +36,7 @@ This is a simple Task List application built using Vite + React.js, designed to 
 * Start the server.
 
 ```bash
-  npm run start
+  npm run dev
 ```
 
 ## Links
