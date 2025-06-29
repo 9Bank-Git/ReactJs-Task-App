@@ -1,8 +1,6 @@
 # 📝 Task List App
 
-This is a simple Task List application built using Vite + React.js, designed to help you efficiently manage your daily tasks. It comes with essential functionalities including adding, editing, deleting, moving tasks up or down, filtering, and local data storage.
-
-This application was designed to practice skills in using React for creating functional applications in the user interface and styling.
+The case study is a simple Task List application built using Vite and React. It comes with essential functionalities including adding, editing, deleting, moving up or down, filtering active, and saving to local storage.
 
 
 ## 💡 Documentation
