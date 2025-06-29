@@ -1,6 +1,6 @@
 # 📝 Task List App
 
-The case study is a simple Task List application built using Vite and React. It comes with essential functionalities including adding, editing, deleting, moving up or down, filtering active, and saving to local storage.
+The case study is a simple Task List application built using Vite and React. It comes with essential functionalities including adding, editing, deleting, toggle complete, moving up or down, filtering, and saving to local storage.
 
 
 ## 💡 Documentation
