@@ -67,7 +67,7 @@ function ItemsList({ task, index, completedTask, showActive, moveTaskUp, moveTas
         onChange={() => completedTask(task.id)}
         className='size-3.5 accent-gray-500/25 hover:opacity-60'
       />
-      <div className='flex'>
+      <div className='flex ml-3'>
         <span className={`size-4.5 rounded-full font-semibold text-xs text-center content-center ${task.completed ? 'text-gray-100 bg-sky-200' : 'text-white bg-sky-500'}`}>
           {index + 1}
         </span>
@@ -86,7 +86,7 @@ function ItemsList({ task, index, completedTask, showActive, moveTaskUp, moveTas
           <span className={`w-full ${task.completed ? 'line-through text-gray-400' : 'text-gray-800'}`}>{task.text}</span>
         )}
       </div>
-      <div className='flex gap-x-1.5'>
+      <div className='flex gap-x-3'>
         {isEditing ? (
           <>
             <div className={`${showActive ? 'hidden': 'flex space-x-1.5'}`}>
