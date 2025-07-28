@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { toast } from 'react-toastify'
 
-export default function TaskItems({ display, showActive, setShowActive, toggleCompleted, moveTaskUp, moveTaskDown, editedTask, openModal }) {
+export default function TaskItems({display, showActive, setShowActive, toggleCompleted, moveTaskUp, moveTaskDown, editedTask, openModal}) {
   return (
     <div className='TaskItems flex flex-col flex-1'>
       <div className='inline-flex mt-6 mb-1 items-end'>
@@ -37,17 +37,17 @@ export default function TaskItems({ display, showActive, setShowActive, toggleCo
   );
 }
 
-function ItemsList({ task, index, completedTask, showActive, moveTaskUp, moveTaskDown, editedTask, openModal }) {
+function ItemsList({task, index, completedTask, showActive, moveTaskUp, moveTaskDown, editedTask, openModal}) {
   const [isEditing, setIsEditing] = useState(false);
   const [editText, setEditText] = useState('');
   
-  // Handle edit mode and text input
+  // Handle editing mode
   const handleEdit = () => {
     setIsEditing(true);
     setEditText(task.text);
   }
 
-  // Handle save action to edit
+  // Handle save action to editing
   const handleSave = (taskId) => {
     if (editText === '') {
       toast.warning('Please, fill out something.');
