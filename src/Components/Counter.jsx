@@ -1,9 +1,9 @@
-export default function Counter({ tasksActive, tasksTotal, openModal }) {
+export default function Counter({tasksActive, tasksTotal, openModal}) {
   return (
     <div className='Counter'>
       <div className='flex flex-col sm:flex-row gap-y-2 mt-4 text-gray-800 justify-between items-center'>
         <span className='font-normal text-base sm:text-lg'>
-          Active : {tasksActive} out of {tasksTotal} tasks
+          Your active : {tasksActive} out of {tasksTotal} tasks
         </span>
         <button
           type='button'
