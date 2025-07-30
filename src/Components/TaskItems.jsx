@@ -72,7 +72,7 @@ function ItemsList({task, index, completedTask, showActive, moveTaskUp, moveTask
           {index + 1}
         </span>
       </div>
-      <div className='flex flex-auto'>
+      <div className='flex w-full justify-center md:justify-start'>
         {isEditing ? (
           <input 
             type='text'
@@ -83,7 +83,7 @@ function ItemsList({task, index, completedTask, showActive, moveTaskUp, moveTask
             autoFocus
           />
         ) : (
-          <span className={`w-full ${task.completed ? 'line-through text-gray-300' : 'text-gray-800'}`}>{task.text}</span>
+          <span className={`w-full break-all ${task.completed ? 'line-through text-gray-300' : 'text-gray-800'}`}>{task.text}</span>
         )}
       </div>
       <div className='flex gap-x-3'>
