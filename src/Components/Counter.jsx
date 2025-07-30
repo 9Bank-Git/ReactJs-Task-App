@@ -3,7 +3,7 @@ export default function Counter({tasksActive, tasksTotal, openModal}) {
     <div className='Counter'>
       <div className='flex flex-col sm:flex-row gap-y-2 mt-4 text-gray-800 justify-between items-center'>
         <span className='font-normal text-base sm:text-lg'>
-          Your active : {tasksActive} out of {tasksTotal} tasks
+          Total active : {tasksActive} out of {tasksTotal}
         </span>
         <button
           type='button'
