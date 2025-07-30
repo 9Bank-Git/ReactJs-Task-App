@@ -68,7 +68,7 @@ function ItemsList({task, index, completedTask, showActive, moveTaskUp, moveTask
         className='size-3.5 accent-gray-500/25 hover:opacity-60'
       />
       <div className='flex ml-3'>
-        <span className={`size-4.5 rounded-full font-semibold text-xs text-center content-center ${task.completed ? 'text-gray-100 bg-sky-200' : 'text-white bg-sky-500'}`}>
+        <span className={`size-4.5 rounded-full font-semibold text-sm text-center content-center ${task.completed ? 'line-through text-gray-100 bg-sky-200' : 'text-white bg-sky-500'}`}>
           {index + 1}
         </span>
       </div>
@@ -83,7 +83,7 @@ function ItemsList({task, index, completedTask, showActive, moveTaskUp, moveTask
             autoFocus
           />
         ) : (
-          <span className={`w-full ${task.completed ? 'line-through text-gray-400' : 'text-gray-800'}`}>{task.text}</span>
+          <span className={`w-full ${task.completed ? 'line-through text-gray-300' : 'text-gray-800'}`}>{task.text}</span>
         )}
       </div>
       <div className='flex gap-x-3'>
