@@ -3,7 +3,7 @@
 The case study is a simple Task List application built using Vite and React. It comes with essential functionalities including adding, editing, deleting, toggle complete, moving up or down, filtering, and saving to local storage.
 
 
-## Documentation
+### Documentation
 
 * **Add Task:** Quickly add new task to your list.
 * **Toggle Complete:** Mark tasks as completed or incomplete.
@@ -17,7 +17,7 @@ The case study is a simple Task List application built using Vite and React. It 
 
 ## Demo
 
-* Links to view the applications [Documentation](https://9bank-tasklist.netlify.app/)
+Links to view the applications [Documentation](https://webapp-project-tasklist.netlify.app)
 
 
 ## User
@@ -27,6 +27,11 @@ The case study is a simple Task List application built using Vite and React. It 
 * CSS
 * Tailwind Css
 
+
 ## Authors
 
-* [@9Bank-Git](https://github.com/9Bank-Git)
+[@9Bank-Git](https://github.com/9Bank-Git)
+
+## License
+
+MIT
