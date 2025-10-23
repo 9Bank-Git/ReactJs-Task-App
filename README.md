@@ -20,7 +20,7 @@ The case study is a simple Task List application built using Vite and React. It 
 Links to view the applications [Documentation](https://webapp-project-tasklist.netlify.app)
 
 
-## User
+## Use
 
 * React.js
 * HTML
